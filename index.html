@@ -1,0 +1,326 @@
+<html dir="ltr" lang="en-US"><head>
+    <meta charset="utf-8">
+    <title>Super Fuel Corporation</title>
+    <meta name="viewport" content="initial-scale = 1.0, maximum-scale = 1.0, user-scalable = no, width = device-width">
+
+    <!--[if lt IE 9]><script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <link rel="stylesheet" href="style.css" media="screen">
+    <!--[if lte IE 7]><link rel="stylesheet" href="style.ie7.css" media="screen" /><![endif]-->
+    <link rel="stylesheet" href="style.responsive.css" media="all">
+
+
+    <script src="jquery.js"></script>
+    <script src="script.js"></script>
+    <script src="script.responsive.js"></script>
+
+
+
+<script>jQuery(function($) {
+    'use strict';
+    if ($.fn.slider) {
+        $(".art-slidecontainer4e959f31630442fa84bd96e758219fda").each(function () {
+            var slideContainer = $(this), tmp;
+            var inner = $(".art-slider-inner", slideContainer);
+            var helper = null;
+
+            if ($.support.transition) {
+                helper = new BackgroundHelper();
+                helper.init("fade", "next", $(".art-slide-item", inner).first().css($.support.transition.prefix + "transition-duration"));
+                inner.children().each(function () {
+                    helper.processSlide($(this));
+                });
+
+            }
+
+
+            inner.children().eq(0).addClass("active");
+            slideContainer.slider({
+                pause: 2600,
+                speed: 600,
+                repeat: true,
+                animation: "fade",
+                direction: "next",
+                navigator: slideContainer.siblings(".art-slidenavigator4e959f31630442fa84bd96e758219fda"),
+                helper: helper                
+            });
+        });
+    }
+});
+</script><style>.art-content .art-postcontent-0 .layout-item-0 { color: #1D2630; background: #F0F2F4 url('images/cbb50.png') scroll; padding-right: 10px;padding-left: 10px;  }
+.ie7 .art-post .art-layout-cell {border:none !important; padding:0 !important; }
+.ie6 .art-post .art-layout-cell {border:none !important; padding:0 !important; }
+
+.art-slidecontainer4e959f31630442fa84bd96e758219fda {
+    position: relative;
+        width: 638px;
+    height: 378px;
+        }
+
+.art-slidecontainer4e959f31630442fa84bd96e758219fda .art-slide-item
+{
+
+}
+
+
+
+.art-slidecontainer4e959f31630442fa84bd96e758219fda .art-slide-item {
+    -webkit-transition: 600ms ease-in-out opacity;
+    -moz-transition: 600ms ease-in-out opacity;
+    -ms-transition: 600ms ease-in-out opacity;
+    -o-transition: 600ms ease-in-out opacity;
+    transition: 600ms ease-in-out opacity;
+    position: absolute;
+    display: none;
+	left: 0;
+	top: 0;
+	opacity: 0;
+    width:  100%;
+    height: 100%;
+}
+
+.art-slidecontainer4e959f31630442fa84bd96e758219fda .active, .art-slidecontainer4e959f31630442fa84bd96e758219fda .next, .art-slidecontainer4e959f31630442fa84bd96e758219fda .prev {
+    display: block;
+}
+
+.art-slidecontainer4e959f31630442fa84bd96e758219fda .active {
+    opacity: 1;
+}
+
+.art-slidecontainer4e959f31630442fa84bd96e758219fda .next, .art-slidecontainer4e959f31630442fa84bd96e758219fda .prev {
+    width: 100%;
+}
+
+.art-slidecontainer4e959f31630442fa84bd96e758219fda .next.forward, .art-slidecontainer4e959f31630442fa84bd96e758219fda .prev.back {
+    opacity: 1;
+}
+
+.art-slidecontainer4e959f31630442fa84bd96e758219fda .active.forward {
+    opacity: 0;
+}
+
+.art-slidecontainer4e959f31630442fa84bd96e758219fda .active.back {
+    opacity: 0;
+}
+
+
+.art-slide4e959f31630442fa84bd96e758219fda0 {
+    background-image:  url('images/slide4e959f31630442fa84bd96e758219fda0.jpg');
+        background-size:  100%;
+        background-position:  center top;
+    background-repeat: no-repeat;
+}
+.art-slide4e959f31630442fa84bd96e758219fda1 {
+    background-image:  url('images/slide4e959f31630442fa84bd96e758219fda1.jpg');
+        background-size:  100%;
+        background-position:  center top;
+    background-repeat: no-repeat;
+}
+.art-slide4e959f31630442fa84bd96e758219fda2 {
+    background-image:  url('images/slide4e959f31630442fa84bd96e758219fda2.jpg');
+        background-size:  100%;
+        background-position:  center top;
+    background-repeat: no-repeat;
+}
+
+
+.art-slidenavigator4e959f31630442fa84bd96e758219fda {
+  display: inline-block;
+  position: absolute;
+  direction: ltr !important;
+  top: 357px;
+  left: 91.38%;
+  z-index: 101;
+  line-height: 0 !important;
+  -webkit-background-origin: border !important;
+  -moz-background-origin: border !important;
+  background-origin: border-box !important;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+    white-space: nowrap;
+    }
+.art-slidenavigator4e959f31630442fa84bd96e758219fda
+{
+background: #B9C2CB;background: rgba(185, 194, 203, 0.6);
+
+
+
+padding:7px;
+
+
+
+
+
+}
+.art-slidenavigator4e959f31630442fa84bd96e758219fda > a
+{
+background: #728597;background: linear-gradient(top, #95A3B1 0, #7E8FA0 50%, #6C7F93 50%, #627384 50%, #6C7F93 86%, #728597 100%) no-repeat;background: -webkit-linear-gradient(top, #95A3B1 0, #7E8FA0 50%, #6C7F93 50%, #627384 50%, #6C7F93 86%, #728597 100%) no-repeat;background: -moz-linear-gradient(top, #95A3B1 0, #7E8FA0 50%, #6C7F93 50%, #627384 50%, #6C7F93 86%, #728597 100%) no-repeat;background: -o-linear-gradient(top, #95A3B1 0, #7E8FA0 50%, #6C7F93 50%, #627384 50%, #6C7F93 86%, #728597 100%) no-repeat;background: -ms-linear-gradient(top, #95A3B1 0, #7E8FA0 50%, #6C7F93 50%, #627384 50%, #6C7F93 86%, #728597 100%) no-repeat;background: linear-gradient(top, #95A3B1 0, #7E8FA0 50%, #6C7F93 50%, #627384 50%, #6C7F93 86%, #728597 100%) no-repeat;-svg-background: linear-gradient(top, #95A3B1 0, #7E8FA0 50%, #6C7F93 50%, #627384 50%, #6C7F93 86%, #728597 100%) no-repeat;
+-webkit-border-radius:20%;-moz-border-radius:20%;border-radius:20%;
+
+border:1px solid #8A99A8;
+
+margin:0 10px 0 0;
+
+width: 7px;
+
+height: 7px;
+}
+.art-slidenavigator4e959f31630442fa84bd96e758219fda > a.active
+{
+background: #FA681E;
+-webkit-border-radius:20%;-moz-border-radius:20%;border-radius:20%;
+
+border:1px solid #D74B04;
+
+margin:0 10px 0 0;
+
+width: 7px;
+
+height: 7px;
+}
+.art-slidenavigator4e959f31630442fa84bd96e758219fda > a:hover
+{
+background: #455B73;background: linear-gradient(top, #4E6883 0, #3D5166 40%, #3B4E63 50%, #3D5166 60%, #4E6883 100%) no-repeat;background: -webkit-linear-gradient(top, #4E6883 0, #3D5166 40%, #3B4E63 50%, #3D5166 60%, #4E6883 100%) no-repeat;background: -moz-linear-gradient(top, #4E6883 0, #3D5166 40%, #3B4E63 50%, #3D5166 60%, #4E6883 100%) no-repeat;background: -o-linear-gradient(top, #4E6883 0, #3D5166 40%, #3B4E63 50%, #3D5166 60%, #4E6883 100%) no-repeat;background: -ms-linear-gradient(top, #4E6883 0, #3D5166 40%, #3B4E63 50%, #3D5166 60%, #4E6883 100%) no-repeat;background: linear-gradient(top, #4E6883 0, #3D5166 40%, #3B4E63 50%, #3D5166 60%, #4E6883 100%) no-repeat;-svg-background: linear-gradient(top, #4E6883 0, #3D5166 40%, #3B4E63 50%, #3D5166 60%, #4E6883 100%) no-repeat;
+-webkit-border-radius:20%;-moz-border-radius:20%;border-radius:20%;
+
+border:1px solid #5A7796;
+
+margin:0 10px 0 0;
+
+width: 7px;
+
+height: 7px;
+}
+
+</style></head>
+<body>
+<div id="art-main">
+    <div class="art-sheet clearfix">
+<header class="art-header">
+
+
+    <div class="art-shapes">
+<div class="art-object97991348" data-left="99.8%"></div>
+<div class="art-object91757100" data-left="9.7%"></div>
+
+            </div>
+<h1 class="art-headline" data-left="2.86%">
+    <a href="index.php">Super Fuel Corporation</a>
+</h1>
+
+
+
+
+                <div id="art-flash-area">
+                    <div id="art-flash-container">
+                    <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="1536" height="384" id="art-flash-object">
+                        <param name="movie" value="images/flash.swf">
+                        <param name="quality" value="high">
+                    	<param name="scale" value="exactfit">
+                    	<param name="wmode" value="transparent">
+                    	<param name="flashvars" value="color1=0xFFFFFF&amp;alpha1=.50&amp;framerate1=24&amp;loop=true&amp;wmode=transparent">
+                        <param name="swfliveconnect" value="true">
+                        <!--[if !IE]>-->
+                        <object type="application/x-shockwave-flash" data="images/flash.swf" width="1536" height="384">
+                            <param name="quality" value="high">
+                    	    <param name="scale" value="exactfit">
+                            <param name="wmode" value="transparent">
+                                                    	    <param name="flashvars" value="color1=0xFFFFFF&amp;alpha1=.50&amp;framerate1=24&amp;loop=true&amp;wmode=transparent">
+                            <param name="swfliveconnect" value="true">
+                        <!--<![endif]-->
+                          	<div class="art-flash-alt"><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player"></a></div>
+                        <!--[if !IE]>-->
+                        </object>
+                        <!--<![endif]-->
+                    </object>
+                    </div>
+                    </div>
+<nav class="art-nav">
+    <ul class="art-hmenu"></ul> 
+    </nav>   
+</header>
+<div class="art-layout-wrapper">
+                <div class="art-content-layout">
+                    <div class="art-content-layout-row">
+                        <div class="art-layout-cell art-sidebar1"><div class="art-vmenublock clearfix">
+        <div class="art-vmenublockheader">
+            <h3 class="t"></h3>
+        </div>
+       <div class="art-vmenublockcontent">
+<ul class="art-vmenu"><li><a href="index.php" class="">Home</a></li><li><a>About Us</a><ul class=""><li><a href="about-us/history.php" class="">History</a></li><li><a href="about-us/mission-and-vision.php" class="">Mission and Vision</a></li></ul></li><li><a href="products.php">Products</a></li><li><a href="contact-us.php">Contact Us</a></li><li><a>Account</a><ul class=""><li><a href="balance-account-inquiry.php">Balance Account Inquiry</a></li></ul></li></ul>
+                
+        </div>
+</div><div class="art-block clearfix">
+        <div class="art-blockheader">
+    <li>
+      <a href="../validation/loginform.php"><img class="jewelLoading img" src="https://z-1-static.xx.fbcdn.net/rsrc.php/v2/yb/r/GsNJNwuI-UM.gif" alt="" width="16" height="11" />
+	  <img class="jewelLoading img" src="images/s.gif" alt="" width="16" height="11" /><img src="images/member-login.png"></a>
+    </li>
+  </ul>
+</form></div>
+</div></div>
+                        <div class="art-layout-cell art-content"><article class="art-post art-article">
+                                
+                                                
+                <div class="art-postcontent art-postcontent-0 clearfix"><div class="art-content-layout">
+    <div class="art-content-layout-row">
+    <div class="art-layout-cell layout-item-0" style="width: 100%" >
+        <div class="image-caption-wrapper" style="float: left;">
+        </div>
+<div id="4e959f31630442fa84bd96e758219fda" style="position: relative; display: inline-block; z-index: 0; margin: auto;  border-width: auto;  " class="art-collage">
+<div class="art-slider art-slidecontainer4e959f31630442fa84bd96e758219fda" data-width="638" data-height="378">
+    <div class="art-slider-inner">
+<div class="art-slide-item art-slide4e959f31630442fa84bd96e758219fda0">
+
+</div>
+<div class="art-slide-item art-slide4e959f31630442fa84bd96e758219fda1">
+
+</div>
+<div class="art-slide-item art-slide4e959f31630442fa84bd96e758219fda2">
+
+</div>
+
+    </div>
+</div>
+<div class="art-slidenavigator art-slidenavigator4e959f31630442fa84bd96e758219fda" data-left="91.38">
+<a href="#" class="art-slidenavigatoritem"></a><a href="#" class="art-slidenavigatoritem"></a><a href="#" class="art-slidenavigatoritem"></a>
+</div>
+
+
+
+    </div>
+
+        
+         
+         
+         
+        <p>
+         
+        </p><p><br></p>
+    </div>
+    </div>
+</div>
+</div>
+
+<p></p><div class="image-caption-wrapper" style="float: left;">
+                </div>
+              
+                <p>
+                 
+                </p><table class="art-article" style="width: 100%; "><tbody><tr><td style="width: 15%; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; "><br></td><td style="width: 15%; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; "><br></td><td style="width: 14%; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; "><br></td><td style="width: 14%; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; "><br></td><td style="width: 14%; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; "><br></td><td style="width: 14%; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; "><br></td><td style="width: 14%; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; text-align: center; "><a href="../admin/admin.php"><img width="70" height="70" alt="" src="../public/images/admin.jpg" ></a><br><span style="font-size: 16px;">ADMIN</span></td></tr></tbody></table>
+</article></div>
+                    </div>
+                </div>
+            </div><footer class="art-footer">
+<p>Copyright © 2015. All Rights Reserved.Design by: TechEye.</p>
+</footer>
+
+    </div>
+    <p class="art-page-footer">
+       
+    </p>
+</div>
+
+
+</body></html>
